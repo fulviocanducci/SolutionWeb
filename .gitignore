@@ -193,6 +193,14 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+
+
+# WebAngular Ignore
+WebAngular/dist
+WebAngular/tmp
+WebAngular/out-tsc
+WebAngular/node_modules/
+
 orleans.codegen.cs
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
