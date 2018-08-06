@@ -9,15 +9,12 @@ import { UserService } from '../../core/user/user.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
-  @Input() show: boolean;
-  
+    
   constructor(private userService: UserService, private router: Router) { }
   
   ngOnInit() { } 
 
-  logout() {
-    this.show = false;
+  logout() {   
     this.userService.loggof();
     this.router.navigate(['/']);
   }

@@ -16,8 +16,7 @@ export class LoggedService implements CanActivate {
     if (!this.userService.isLogged()) {            
         this.router.navigate(['/']);
         return false;
-    }
-    console.log(true);
+    }    
     return true;
   }
   
