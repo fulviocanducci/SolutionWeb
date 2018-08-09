@@ -102,7 +102,7 @@ namespace WebApi
             {
                 x.AllowAnyHeader();
                 x.AllowAnyMethod();
-                x.AllowAnyOrigin();
+                x.AllowAnyOrigin();                
             });
 
             app.UseMvc(routes =>
